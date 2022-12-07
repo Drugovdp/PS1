@@ -1,0 +1,28 @@
+ul {
+    border: cadetblue solid 1px;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.task_lists {
+    display: flex;
+    width: 100%;
+}
+
+.task_lists-numlist {
+    flex-basis: 25px;
+    text-align: right;
+}
+
+.task_lists-namelist {
+    min-width: 180px;
+    margin-left: 20px;
+}
+
+.task_lists--valueChecbox {
+    margin-left: 20px;
+}
