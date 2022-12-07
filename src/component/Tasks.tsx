@@ -17,6 +17,7 @@ type TasksType = {
 export const Tasks = (props: TasksPropsType) => {
     return (
         <div className="tasks_el">
+            <h2>Главная страница</h2>
             <h3>{props.data.title}</h3>
             <ul>
                 {props.data.students.map((el, k) => {
